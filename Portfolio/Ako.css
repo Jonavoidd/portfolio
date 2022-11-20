@@ -1,0 +1,90 @@
+* {
+    padding: 0%;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: none;
+  }
+
+body {
+    background-color: silver;
+    max-width: 1500px;
+}
+
+/* First div */
+
+.topPart {
+    height: 80px;
+    margin: auto;
+    background: black;
+    color: white;
+    margin: 8px;
+    padding: 30px;
+}
+
+h1.topPart {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+}
+
+p.description {
+    font-family: cursive;
+}
+
+.fb_pic {
+    border-radius: 50%;
+}
+
+/* Second div */
+
+.map {
+    background: black;
+    color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.a {
+    color: white;
+}
+
+/* Third div */
+
+.mainContent {
+    margin: 10px;
+    background: white;
+    color: black;
+    padding: 30px;
+    width: 725px;
+    float: left;
+}
+
+.dc-button {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: black;
+    color: white;
+    outline: auto;
+    outline-style: round;
+}
+
+/* Fourth div */
+
+.myPicture {
+    float: right;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    margin-right: 100px;
+}
+
+img {
+    border-radius: 50%;
+}
